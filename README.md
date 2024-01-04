@@ -8,15 +8,15 @@ Unsupervised multi-source domain adaptation aims to obtain a model working well 
 
   ![KD](./images/paradigm.jpg)
 
-* (a) MSDA under the data centralization scenario. The labeled source domain data $\{X_{i},Y_{i}\}_{i=1}^{n}$ and unlabeled target domain data $X_{T}$ can be accessed simultaneously for domain adaptation.
-* (b) MSDA under the source-free paradigm. The source domain models $\{\mathcal{M}_{i}\}_{i=1}^{n}$ are pre-trained on the labeled source domain data $\{X_{i},Y_{i}\}_{i=1}^{n}$ and then are fine-tuned on the unlabeled target domain $X_{T}$.
-* (c) MSDA under the collaborative paradigm. The labeled source domain data $\{X_{i},Y_{i}\}_{i=1}^{n}$ and unlabeled target domain data $X_{T}$ are isolated, the source domain models $\{\mathcal{M}_{i}\}_{i=1}^{n}$ and target domain model $\mathcal{M}_{T}$ are used as the bridges for model adaptation during training.
+* (a) MSDA under the data centralization scenario. The labeled source domain data and unlabeled target domain data can be accessed simultaneously for domain adaptation.
+* (b) MSDA under the source-free paradigm. The source domain models are pre-trained on the labeled source domain data and then are fine-tuned on the unlabeled target domain.
+* (c) MSDA under the collaborative paradigm. The labeled source domain data and unlabeled target domain data are isolated, the source domain models and target domain model are used as the bridges for model adaptation during training.
 
 ## Method
 
   ![KD](./images/framework.jpg)
 
-The contrastive alignment of MCC-DA on the decentralized source domains and target domain. On the source domains, the local source domain models $\{\mathcal{M}_{i}\}_{i=1}^{n}$ are trained on their domain data with the collaboration of the local target domain model $\mathcal{M}_{T}$ to conduct contrastive alignment. Then, the local source domain models $\{\mathcal{M}_{i}\}_{i=1}^{n}$ are uploaded to the target domain. On the target domain, the local target domain model $\mathcal{M}_{T}$ is trained on the target domain data with the collaboration of local source domain models $\{\mathcal{M}_{i}\}_{i=1}^{n}$ to conduct contrastive alignment. Then, the local source domain models $\{\mathcal{M}_{i}\}_{i=1}^{n}$ and the local target domain model $\mathcal{M}_{T}$ are aggregated to obtain a global model $\mathcal{M}_{G}$ by parameter averaging. The next round of collaborative adaptation is repeated by using the global model $\mathcal{M}_{G}$ as the initial model for different domains.
+The contrastive alignment of MCC-DA on the decentralized source domains and target domain. On the source domains, the local source domain models are trained on their domain data with the collaboration of the local target domain model to conduct contrastive alignment. Then, the local source domain models are uploaded to the target domain. On the target domain, the local target domain model is trained on the target domain data with the collaboration of local source domain models to conduct contrastive alignment. Then, the local source domain models and the local target domain model are aggregated to obtain a global model by parameter averaging. The next round of collaborative adaptation is repeated by using the global model as the initial model for different domains.
 
 ## Setup
 ### Install Package Dependencies
