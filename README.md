@@ -118,4 +118,4 @@ And there are some federated multi-source domain adaptation methods and federate
 The code borrows heavily from [KD3A](https://github.com/FengHZ/KD3A). Thanks [Feng haozhe](https://scholar.google.com/citations?user=kKOuziEAAAAJ&hl=zh-CN) very much. The [MindSpore version](https://gitee.com/luckyyk/fedgm) is implemented by [Li deng](), thanks very much. -->
 
 ## Acknowledgments
-The code borrows heavily from [KD3A](https://github.com/FengHZ/KD3A). Thanks [Feng haozhe](https://scholar.google.com/citations?user=kKOuziEAAAAJ&hl=zh-CN) very much.
+The code borrows heavily from [KD3A](https://github.com/FengHZ/KD3A). Thanks [Feng haozhe](https://scholar.google.com/citations?user=kKOuziEAAAAJ&hl=zh-CN) very much. The codes will be released once they are annotated.
