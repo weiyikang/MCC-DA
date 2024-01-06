@@ -50,7 +50,7 @@ base_path
   The PACS dataset can be accessed in [Google Drive](https://drive.google.com/file/d/1QvC6mDVN25VArmTuSHqgd7Cf9CoiHvVt/view?usp=sharing). -->
 
 ### MCC-DA
-The configuration files can be found under the folder  `./config`, and we provide four config files with the format `.yaml`. To perform the FedDG on the specific dataset (e.g., Digits-5), please use the following commands:
+The configuration files can be found under the folder  `./config`, and we provide four config files with the format `.yaml`. To perform the FedDA on the specific dataset (e.g., Digits-5), please use the following commands:
 
 ```python
 nohup python main.py --config DigitFive.yaml --target-domain mnist -bp ../../../ --temperature 0.8 --smc 0.0 --tmc 0.0 --tic 1.0 --sic 0.01 --pl 3 --pj 0 --tau 0.05 --seed 1 --gpu 2  > ./log/digit5_tau005_tic1_scic001_mnist.txt 2>&1 &
@@ -118,4 +118,5 @@ And there are some federated multi-source domain adaptation methods and federate
 The code borrows heavily from [KD3A](https://github.com/FengHZ/KD3A). Thanks [Feng haozhe](https://scholar.google.com/citations?user=kKOuziEAAAAJ&hl=zh-CN) very much. The [MindSpore version](https://gitee.com/luckyyk/fedgm) is implemented by [Li deng](), thanks very much. -->
 
 ## Acknowledgments
-The code borrows heavily from [KD3A](https://github.com/FengHZ/KD3A). Thanks [Feng haozhe](https://scholar.google.com/citations?user=kKOuziEAAAAJ&hl=zh-CN) very much. The codes will be released once they are annotated.
+<!-- The code borrows heavily from [KD3A](https://github.com/FengHZ/KD3A). Thanks [Feng haozhe](https://scholar.google.com/citations?user=kKOuziEAAAAJ&hl=zh-CN) very much.  -->
+The codes will be released once they are annotated.
