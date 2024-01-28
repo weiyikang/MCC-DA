@@ -91,8 +91,15 @@ If you find this useful in your work please consider citing:
   doi={10.1109/TCSVT.2022.3219893}}
 ```
 
-And there are some federated multi-source domain adaptation methods and federated domain generalization proposed by us.
+And there are some federated multi-source domain adaptation methods and federated multi-source domain generalization proposed by us.
 ```
+@article{wei2024multi,
+  title={Multi-Source Collaborative Gradient Discrepancy Minimization for Federated Domain Generalization},
+  author={Wei, Yikang and Han, Yahong},
+  journal={arXiv preprint arXiv:2401.10272},
+  year={2024}
+}
+
 @inproceedings{wei2023exploring,
   title={Exploring Instance Relation for Decentralized Multi-Source Domain Adaptation},
   author={Wei, Yikang and Han, Yahong},
@@ -114,9 +121,5 @@ And there are some federated multi-source domain adaptation methods and federate
 }
 ```
 
-<!-- ## Acknowledgments
-The code borrows heavily from [KD3A](https://github.com/FengHZ/KD3A). Thanks [Feng haozhe](https://scholar.google.com/citations?user=kKOuziEAAAAJ&hl=zh-CN) very much. The [MindSpore version](https://gitee.com/luckyyk/fedgm) is implemented by [Li deng](), thanks very much. -->
-
 ## Acknowledgments
-<!-- The code borrows heavily from [KD3A](https://github.com/FengHZ/KD3A). Thanks [Feng haozhe](https://scholar.google.com/citations?user=kKOuziEAAAAJ&hl=zh-CN) very much.  -->
 The codes will be released once they are annotated.
