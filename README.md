@@ -127,4 +127,4 @@ And there are some federated multi-source domain adaptation methods and federate
 ```
 
 ## Acknowledgments
-The codes will be released once they are annotated.
+Please refer to train.py for additional details.
