@@ -64,12 +64,6 @@ nohup python main.py --config DigitFive.yaml --target-domain syn -bp ../../../ -
 nohup python main.py --config DigitFive.yaml --target-domain usps -bp ../../../ --temperature 0.8 --smc 0.0 --tmc 0.0 --tic 1.0 --sic 0.01 --pl 3 --pj 0 --tau 0.05 --seed 1 --gpu 5  > ./log/digit5_tau005_tic1_scic001_usps.txt 2>&1 &
 ```
 
-The trained model on Digits-5 dataset can be downloaded in Baidu Yun:
-
-Link: 
-
-Code: 
-
 The results on Digits-5 and DomainNet are as follows.
 
   ![FedDG](./images/digits5_results.png)
